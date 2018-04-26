@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Aaron Ho CIS 345 10:30 - 11:45 AM
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace IC17
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void showAaronHoBioButton_Click(object sender, EventArgs e)
+        {
+            AaronHoBioForm aaronHoBioForm = new AaronHoBioForm();
+
+            aaronHoBioForm.Show();
         }
     }
 }
