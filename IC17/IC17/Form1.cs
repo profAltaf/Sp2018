@@ -16,5 +16,12 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void showEmilyBioButton_Click(object sender, EventArgs e)
+        {
+            EmilyBeckBioForm eb = new EmilyBeckBioForm();
+            eb.Show();
+
+        }
     }
 }
