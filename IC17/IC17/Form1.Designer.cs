@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.professorButton = new System.Windows.Forms.Button();
+            this.showJiaqiBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // professorButton
@@ -40,11 +41,22 @@
             this.professorButton.Text = "Professor";
             this.professorButton.UseVisualStyleBackColor = true;
             // 
+            // showJiaqiBioButton
+            // 
+            this.showJiaqiBioButton.Location = new System.Drawing.Point(64, 89);
+            this.showJiaqiBioButton.Name = "showJiaqiBioButton";
+            this.showJiaqiBioButton.Size = new System.Drawing.Size(48, 23);
+            this.showJiaqiBioButton.TabIndex = 1;
+            this.showJiaqiBioButton.Text = "Jiaqi";
+            this.showJiaqiBioButton.UseVisualStyleBackColor = true;
+            this.showJiaqiBioButton.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.showJiaqiBioButton);
             this.Controls.Add(this.professorButton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -55,6 +67,7 @@
         #endregion
 
         private System.Windows.Forms.Button professorButton;
+        private System.Windows.Forms.Button showJiaqiBioButton;
     }
 }
 
