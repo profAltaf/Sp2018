@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Tyler Thomas, IC17, CIS 345 Tues/Thurs 10:30
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,17 +11,16 @@ using System.Windows.Forms;
 
 namespace IC17
 {
-    public partial class Form1 : Form
+    public partial class TylerThomasBioForm : Form
     {
-        public Form1()
+        public TylerThomasBioForm()
         {
             InitializeComponent();
         }
 
-        private void showTylerBioButton_Click(object sender, EventArgs e)
+        private void closeButton_Click(object sender, EventArgs e)
         {
-            TylerThomasBioForm tylerThomasBioForm = new TylerThomasBioForm();
-            tylerThomasBioForm.Show();
+            this.Close();
         }
     }
 }
