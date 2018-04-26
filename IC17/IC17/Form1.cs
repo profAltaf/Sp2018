@@ -32,6 +32,13 @@ namespace IC17
             boForm.Show();
         }
 
+        private void showAntonioPaolettiBioButton_Click(object sender, EventArgs e)
+        {
+            AntonioPaolettiBioForm tmpForm = new AntonioPaolettiBioForm();
+
+            tmpForm.Show();
+        }
+
         private void showQuinnBioButton_Click(object sender, EventArgs e)
         {
             QuinnMcElroyBioForm qmForm = new QuinnMcElroyBioForm();
