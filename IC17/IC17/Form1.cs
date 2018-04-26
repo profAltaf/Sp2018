@@ -1,5 +1,4 @@
-﻿// Aaron Ho CIS 345 10:30 - 11:45 AM
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
