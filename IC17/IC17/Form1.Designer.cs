@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.professorButton = new System.Windows.Forms.Button();
+            this.showBoBioButton = new System.Windows.Forms.Button();
             this.showKaiLiangBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -40,6 +41,16 @@
             this.professorButton.TabIndex = 0;
             this.professorButton.Text = "Professor";
             this.professorButton.UseVisualStyleBackColor = true;
+            // 
+            // showBoBioButton
+            // 
+            this.showBoBioButton.Location = new System.Drawing.Point(314, 305);
+            this.showBoBioButton.Name = "showBoBioButton";
+            this.showBoBioButton.Size = new System.Drawing.Size(75, 23);
+            this.showBoBioButton.TabIndex = 1;
+            this.showBoBioButton.Text = "Show";
+            this.showBoBioButton.UseVisualStyleBackColor = true;
+            this.showBoBioButton.Click += new System.EventHandler(this.showBoBioButton_Click);
             // 
             // showKaiLiangBioButton
             // 
@@ -57,6 +68,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.showKaiLiangBioButton);
+            this.Controls.Add(this.showBoBioButton);
             this.Controls.Add(this.professorButton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -68,6 +80,7 @@
 
         private System.Windows.Forms.Button professorButton;
         private System.Windows.Forms.Button showKaiLiangBioButton;
+        private System.Windows.Forms.Button showBoBioButton;
     }
 }
 
