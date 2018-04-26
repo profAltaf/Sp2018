@@ -16,5 +16,13 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void showAmeliaBioButton_Click(object sender, EventArgs e)
+        {
+            // Declare and instantiate an object 
+            AmeliaChangBioForm ameliaBio = new AmeliaChangBioForm();
+            // Show the form 
+            ameliaBio.Show(); 
+        }
     }
 }
