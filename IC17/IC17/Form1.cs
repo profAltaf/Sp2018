@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Kai Liang, IC17, CIS 345, Tuesday 10:30 AM
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,12 @@ namespace IC17
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void showKaiLiangBioButton_Click(object sender, EventArgs e)
+        {
+            KaiLiangBioForm kaiLiangBio = new KaiLiangBioForm();
+            kaiLiangBio.Show();
         }
 
         private void showBoBioButton_Click(object sender, EventArgs e)
