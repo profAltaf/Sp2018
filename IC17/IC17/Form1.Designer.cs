@@ -50,7 +50,6 @@
             this.showAaronHoBioButton.TabIndex = 1;
             this.showAaronHoBioButton.Text = "Aaron";
             this.showAaronHoBioButton.UseVisualStyleBackColor = true;
-            this.showAaronHoBioButton.Click += new System.EventHandler(this.showAaronHoBioButton_Click);
             // 
             // Form1
             // 

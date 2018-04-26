@@ -17,10 +17,6 @@ namespace IC17
             InitializeComponent();
         }
 
-        private void showAaronHoBioButton_Click(object sender, EventArgs e)
-        {
-            AaronHoBioForm aaronHoBioForm = new AaronHoBioForm();
-            aaronHoBioForm.Show();
-        }
+        
     }
 }
