@@ -12,9 +12,16 @@ namespace IC17
 {
     public partial class Form1 : Form
     {
+        BoBioForm boForm;
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void showBoBioButton_Click(object sender, EventArgs e)
+        {
+            boForm = new BoBioForm();
+            boForm.Show();
         }
 
         private void showAntonioPaolettiBioButton_Click(object sender, EventArgs e)

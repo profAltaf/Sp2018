@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoBioForm.Designer.cs">
+      <DependentUpon>BoBioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AntonioPaolettiBioForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BoBioForm.resx">
+      <DependentUpon>BoBioForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AntonioPaolettiBioForm.resx">
       <DependentUpon>AntonioPaolettiBioForm.cs</DependentUpon>
     </EmbeddedResource>
