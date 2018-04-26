@@ -10,11 +10,9 @@ using System.Windows.Forms;
 
 namespace IC17
 {
-
-    public partial class Form1 : Form
+    public partial class KaiLiangBioForm : Form
     {
-        BoBioForm boForm;
-        public Form1()
+        public KaiLiangBioForm()
         {
             InitializeComponent();
         }
