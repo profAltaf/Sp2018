@@ -29,22 +29,34 @@
         private void InitializeComponent()
         {
             this.professorButton = new System.Windows.Forms.Button();
+            this.showJingyuZhuBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // professorButton
             // 
-            this.professorButton.Location = new System.Drawing.Point(13, 29);
+            this.professorButton.Location = new System.Drawing.Point(270, 28);
             this.professorButton.Name = "professorButton";
             this.professorButton.Size = new System.Drawing.Size(75, 23);
             this.professorButton.TabIndex = 0;
             this.professorButton.Text = "Professor";
             this.professorButton.UseVisualStyleBackColor = true;
             // 
+            // showJingyuZhuBioButton
+            // 
+            this.showJingyuZhuBioButton.Location = new System.Drawing.Point(103, 76);
+            this.showJingyuZhuBioButton.Name = "showJingyuZhuBioButton";
+            this.showJingyuZhuBioButton.Size = new System.Drawing.Size(75, 23);
+            this.showJingyuZhuBioButton.TabIndex = 1;
+            this.showJingyuZhuBioButton.Text = "JingyuZhu";
+            this.showJingyuZhuBioButton.UseVisualStyleBackColor = true;
+            this.showJingyuZhuBioButton.Click += new System.EventHandler(this.showJingyuZhuBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.showJingyuZhuBioButton);
             this.Controls.Add(this.professorButton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -55,6 +67,7 @@
         #endregion
 
         private System.Windows.Forms.Button professorButton;
+        private System.Windows.Forms.Button showJingyuZhuBioButton;
     }
 }
 

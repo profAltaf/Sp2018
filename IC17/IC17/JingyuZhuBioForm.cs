@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace IC17
 {
-    public partial class Form1 : Form
+    public partial class JingyuZhuBioForm : Form
     {
-        JingyuZhuBioForm JingyuZhuBioForm;
-        public Form1()
+        public JingyuZhuBioForm()
         {
             InitializeComponent();
-        }
-
-        private void showJingyuZhuBioButton_Click(object sender, EventArgs e)
-        {
-            JingyuZhuBioForm = new JingyuZhuBioForm();
-            JingyuZhuBioForm.Show();
         }
     }
 }
