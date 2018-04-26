@@ -16,5 +16,13 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void professorButton_Click(object sender, EventArgs e)
+        {
+            // declare and instantiate your bio form
+            // show your bio form
+
+           // WriteLine();
+        }
     }
 }
