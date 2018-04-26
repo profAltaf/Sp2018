@@ -15,6 +15,10 @@ namespace IC17
         public RyleeBioForm()
         {
             InitializeComponent();
+
+            dreamJobTextBox.Text = "Billionaire Venture Capitalist funding social enterprises";
+
+            nameTextBox.Text = "Rylee Dunkel";
         }
     }
 }
