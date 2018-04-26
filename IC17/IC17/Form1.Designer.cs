@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.professorButton = new System.Windows.Forms.Button();
+            this.JosephWilsonBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // professorButton
@@ -40,11 +41,22 @@
             this.professorButton.Text = "Professor";
             this.professorButton.UseVisualStyleBackColor = true;
             // 
+            // JosephWilsonBioButton
+            // 
+            this.JosephWilsonBioButton.Location = new System.Drawing.Point(637, 12);
+            this.JosephWilsonBioButton.Name = "JosephWilsonBioButton";
+            this.JosephWilsonBioButton.Size = new System.Drawing.Size(75, 23);
+            this.JosephWilsonBioButton.TabIndex = 1;
+            this.JosephWilsonBioButton.Text = "Joseph Wilson";
+            this.JosephWilsonBioButton.UseVisualStyleBackColor = true;
+            this.JosephWilsonBioButton.Click += new System.EventHandler(this.showJosephWilsonBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.JosephWilsonBioButton);
             this.Controls.Add(this.professorButton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -55,6 +67,7 @@
         #endregion
 
         private System.Windows.Forms.Button professorButton;
+        private System.Windows.Forms.Button JosephWilsonBioButton;
     }
 }
 
