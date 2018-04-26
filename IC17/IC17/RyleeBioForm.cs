@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace IC17
 {
-    public partial class Form1 : Form
+    public partial class RyleeBioForm : Form
     {
-        public Form1()
+        public RyleeBioForm()
         {
             InitializeComponent();
-        }
-
-        private void RyleeBioButton_Click(object sender, EventArgs e)
-        {
-            RyleeBioForm ryleeBioForm = new RyleeBioForm();
-
-            
-
-            ryleeBioForm.Show();
         }
     }
 }
