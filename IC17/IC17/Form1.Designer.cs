@@ -34,6 +34,7 @@
             this.showKaiLiangBioButton = new System.Windows.Forms.Button();
             this.showQuinnBioButton = new System.Windows.Forms.Button();
             this.showAaronHoBioButton = new System.Windows.Forms.Button();
+            this.RyleeBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // professorButton
@@ -96,6 +97,16 @@
             this.showQuinnBioButton.UseVisualStyleBackColor = true;
             this.showQuinnBioButton.Click += new System.EventHandler(this.showQuinnBioButton_Click);
             // 
+            // RyleeBioButton
+            // 
+            this.RyleeBioButton.Location = new System.Drawing.Point(637, 404);
+            this.RyleeBioButton.Name = "RyleeBioButton";
+            this.RyleeBioButton.Size = new System.Drawing.Size(75, 23);
+            this.RyleeBioButton.TabIndex = 1;
+            this.RyleeBioButton.Text = "Rylee";
+            this.RyleeBioButton.UseVisualStyleBackColor = true;
+            this.RyleeBioButton.Click += new System.EventHandler(this.RyleeBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -107,6 +118,7 @@
             this.Controls.Add(this.showBoBioButton);
             this.Controls.Add(this.showAntonioPaolettiBioButton);
             this.Controls.Add(this.showQuinnBioButton);
+            this.Controls.Add(this.RyleeBioButton);
             this.Controls.Add(this.professorButton);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
@@ -123,6 +135,7 @@
         private System.Windows.Forms.Button showBoBioButton;
         private System.Windows.Forms.Button showAntonioPaolettiBioButton;
         private System.Windows.Forms.Button showQuinnBioButton;
+        private System.Windows.Forms.Button RyleeBioButton;
     }
 }
 

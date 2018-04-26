@@ -92,6 +92,12 @@
     <Compile Include="QuinnMcElroyBioForm.Designer.cs">
       <DependentUpon>QuinnMcElroyBioForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="RyleeBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RyleeBioForm.Designer.cs">
+      <DependentUpon>RyleeBioForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +113,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RyleeBioForm.resx">
+      <DependentUpon>RyleeBioForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuinnMcElroyBioForm.resx">
       <DependentUpon>QuinnMcElroyBioForm.cs</DependentUpon>
     </EmbeddedResource>
