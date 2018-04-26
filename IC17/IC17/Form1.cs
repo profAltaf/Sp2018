@@ -16,5 +16,16 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LujainAlthubaitiBioButton_Click(object sender, EventArgs e)
+        {
+            LujainaLthubaitiBioForm LujainForm = new LujainaLthubaitiBioForm();
+            LujainForm.Show();
+        }
     }
 }
