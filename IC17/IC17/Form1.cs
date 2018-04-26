@@ -16,5 +16,12 @@ namespace IC17
         {
             InitializeComponent();
         }
+
+        private void showJoshuaBioButton_Click(object sender, EventArgs e)
+        {
+            // Form is instantiated and shown
+            JoshuaRoldanBioForm joshForm = new JoshuaRoldanBioForm();
+            joshForm.Show();
+        }
     }
 }
