@@ -49,13 +49,12 @@
             // 
             // showAaronHoBioButton
             // 
-            this.showAaronHoBioButton.Location = new System.Drawing.Point(20, 199);
+            this.showAaronHoBioButton.Location = new System.Drawing.Point(169, 205);
             this.showAaronHoBioButton.Name = "showAaronHoBioButton";
             this.showAaronHoBioButton.Size = new System.Drawing.Size(103, 35);
             this.showAaronHoBioButton.TabIndex = 1;
             this.showAaronHoBioButton.Text = "Aaron";
             this.showAaronHoBioButton.UseVisualStyleBackColor = true;
-            this.showAaronHoBioButton.Click += new System.EventHandler(this.showAaronHoBioButton_Click);
             // 
             // showBoBioButton
             // 
