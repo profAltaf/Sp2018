@@ -45,14 +45,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoBioForm.Designer.cs">
+      <DependentUpon>BoBioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AntonioPaolettiBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AntonioPaolettiBioForm.Designer.cs">
+      <DependentUpon>AntonioPaolettiBioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KaiLiangBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KaiLiangBioForm.Designer.cs">
+      <DependentUpon>KaiLiangBioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BoBioForm.resx">
+      <DependentUpon>BoBioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AntonioPaolettiBioForm.resx">
+      <DependentUpon>AntonioPaolettiBioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="QuinnMcElroyBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuinnMcElroyBioForm.Designer.cs">
+      <DependentUpon>QuinnMcElroyBioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="RyleeBioForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +91,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KaiLiangBioForm.resx">
+      <DependentUpon>KaiLiangBioForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -73,6 +106,9 @@
     </Compile>
     <EmbeddedResource Include="RyleeBioForm.resx">
       <DependentUpon>RyleeBioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuinnMcElroyBioForm.resx">
+      <DependentUpon>QuinnMcElroyBioForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

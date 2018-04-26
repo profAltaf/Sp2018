@@ -10,11 +10,38 @@ using System.Windows.Forms;
 
 namespace IC17
 {
+
     public partial class Form1 : Form
     {
+        BoBioForm boForm;
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void showKaiLiangBioButton_Click(object sender, EventArgs e)
+        {
+            KaiLiangBioForm kaiLiangBio = new KaiLiangBioForm();
+            kaiLiangBio.Show();
+        }
+
+        private void showBoBioButton_Click(object sender, EventArgs e)
+        {
+            boForm = new BoBioForm();
+            boForm.Show();
+        }
+
+        private void showAntonioPaolettiBioButton_Click(object sender, EventArgs e)
+        {
+            AntonioPaolettiBioForm tmpForm = new AntonioPaolettiBioForm();
+
+            tmpForm.Show();
+        }
+
+        private void showQuinnBioButton_Click(object sender, EventArgs e)
+        {
+            QuinnMcElroyBioForm qmForm = new QuinnMcElroyBioForm();
+            qmForm.Show();
         }
 
         private void RyleeBioButton_Click(object sender, EventArgs e)
