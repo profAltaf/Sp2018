@@ -69,6 +69,7 @@
             this.nameTextBox.ReadOnly = true;
             this.nameTextBox.Size = new System.Drawing.Size(100, 20);
             this.nameTextBox.TabIndex = 3;
+            this.nameTextBox.Text = "Haozheng Yu";
             // 
             // dreamJobTextBox
             // 
@@ -77,6 +78,7 @@
             this.dreamJobTextBox.ReadOnly = true;
             this.dreamJobTextBox.Size = new System.Drawing.Size(100, 20);
             this.dreamJobTextBox.TabIndex = 4;
+            this.dreamJobTextBox.Text = "Programmer";
             // 
             // HaozhengYuBioForm
             // 
