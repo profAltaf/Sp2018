@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace IC17
 {
-    public partial class Form1 : Form
+    public partial class VedadMostarlicBioForm : Form
     {
-        public Form1()
+        public VedadMostarlicBioForm()
         {
             InitializeComponent();
         }
 
-        private void showVedadMostarlicBioButton_Click(object sender, EventArgs e)
+        private void closeButton_Click(object sender, EventArgs e)
         {
-            VedadMostarlicBioForm newVedadBio = new VedadMostarlicBioForm();
-            newVedadBio.Show();
+            this.Close();
         }
     }
 }

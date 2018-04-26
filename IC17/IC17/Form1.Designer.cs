@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.professorButton = new System.Windows.Forms.Button();
+            this.showVedadMostarlicBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // professorButton
@@ -40,11 +41,22 @@
             this.professorButton.Text = "Professor";
             this.professorButton.UseVisualStyleBackColor = true;
             // 
+            // showVedadMostarlicBioButton
+            // 
+            this.showVedadMostarlicBioButton.Location = new System.Drawing.Point(465, 191);
+            this.showVedadMostarlicBioButton.Name = "showVedadMostarlicBioButton";
+            this.showVedadMostarlicBioButton.Size = new System.Drawing.Size(75, 23);
+            this.showVedadMostarlicBioButton.TabIndex = 1;
+            this.showVedadMostarlicBioButton.Text = "button1";
+            this.showVedadMostarlicBioButton.UseVisualStyleBackColor = true;
+            this.showVedadMostarlicBioButton.Click += new System.EventHandler(this.showVedadMostarlicBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.showVedadMostarlicBioButton);
             this.Controls.Add(this.professorButton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -55,6 +67,7 @@
         #endregion
 
         private System.Windows.Forms.Button professorButton;
+        private System.Windows.Forms.Button showVedadMostarlicBioButton;
     }
 }
 
