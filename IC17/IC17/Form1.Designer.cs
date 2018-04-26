@@ -44,7 +44,7 @@
             // 
             // showAaronHoBioButton
             // 
-            this.showAaronHoBioButton.Location = new System.Drawing.Point(205, 45);
+            this.showAaronHoBioButton.Location = new System.Drawing.Point(20, 199);
             this.showAaronHoBioButton.Name = "showAaronHoBioButton";
             this.showAaronHoBioButton.Size = new System.Drawing.Size(103, 35);
             this.showAaronHoBioButton.TabIndex = 1;
