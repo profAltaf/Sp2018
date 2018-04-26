@@ -1,4 +1,5 @@
-﻿using System;
+﻿// William Zeper, CIS 345, Tues/Thur 1030am
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace IC17
         public WilliamZeperBioForm()
         {
             InitializeComponent();
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
