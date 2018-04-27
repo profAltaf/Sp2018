@@ -57,5 +57,12 @@ namespace IC17
 
             ryleeBioForm.Show();
         }
+
+        private void showAndrewStievaterBioButton_Click(object sender, EventArgs e)
+        {
+            AndrewStievaterBioForm andrewStievaterBioForm = new AndrewStievaterBioForm();
+
+            andrewStievaterBioForm.Show();
+        }
     }
 }
