@@ -64,5 +64,11 @@ namespace IC17
 
             andrewStievaterBioForm.Show();
         }
+
+        private void AlexaMeyerBioButton_Click(object sender, EventArgs e)
+        {
+            AlexaMeyerBioForm alexaMeyerBioForm = new AlexaMeyerBioForm();
+            alexaMeyerBioForm.Show();
+        }
     }
 }

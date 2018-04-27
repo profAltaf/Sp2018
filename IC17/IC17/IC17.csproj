@@ -51,6 +51,12 @@
     <Compile Include="AaronHoBioForm.Designer.cs">
       <DependentUpon>AaronHoBioForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AlexaMeyerBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlexaMeyerBioForm.Designer.cs">
+      <DependentUpon>AlexaMeyerBioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AndrewStievaterBioForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AaronHoBioForm.resx">
       <DependentUpon>AaronHoBioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlexaMeyerBioForm.resx">
+      <DependentUpon>AlexaMeyerBioForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AndrewStievaterBioForm.resx">
       <DependentUpon>AndrewStievaterBioForm.cs</DependentUpon>
