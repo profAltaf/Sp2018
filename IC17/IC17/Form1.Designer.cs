@@ -35,6 +35,7 @@
             this.showQuinnBioButton = new System.Windows.Forms.Button();
             this.showAaronHoBioButton = new System.Windows.Forms.Button();
             this.RyleeBioButton = new System.Windows.Forms.Button();
+            this.showAndrewStievaterBioButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // professorButton
@@ -47,15 +48,15 @@
             this.professorButton.Text = "Professor";
             this.professorButton.UseVisualStyleBackColor = true;
             // 
-            // showAaronHoBioButton
+            // showAntonioPaolettiBioButton
             // 
-            this.showAaronHoBioButton.Location = new System.Drawing.Point(169, 205);
-            this.showAaronHoBioButton.Name = "showAaronHoBioButton";
-            this.showAaronHoBioButton.Size = new System.Drawing.Size(103, 35);
-            this.showAaronHoBioButton.TabIndex = 1;
-            this.showAaronHoBioButton.Text = "Aaron";
-            this.showAaronHoBioButton.UseVisualStyleBackColor = true;
-            this.showAaronHoBioButton.Click += new System.EventHandler(this.showAaronHoBioButton_Click);
+            this.showAntonioPaolettiBioButton.Location = new System.Drawing.Point(179, 395);
+            this.showAntonioPaolettiBioButton.Name = "showAntonioPaolettiBioButton";
+            this.showAntonioPaolettiBioButton.Size = new System.Drawing.Size(75, 23);
+            this.showAntonioPaolettiBioButton.TabIndex = 1;
+            this.showAntonioPaolettiBioButton.Text = "Antonio";
+            this.showAntonioPaolettiBioButton.UseVisualStyleBackColor = true;
+            this.showAntonioPaolettiBioButton.Click += new System.EventHandler(this.showAntonioPaolettiBioButton_Click);
             // 
             // showBoBioButton
             // 
@@ -77,16 +78,6 @@
             this.showKaiLiangBioButton.UseVisualStyleBackColor = true;
             this.showKaiLiangBioButton.Click += new System.EventHandler(this.showKaiLiangBioButton_Click);
             // 
-            // showAntonioPaolettiBioButton
-            // 
-            this.showAntonioPaolettiBioButton.Location = new System.Drawing.Point(179, 395);
-            this.showAntonioPaolettiBioButton.Name = "showAntonioPaolettiBioButton";
-            this.showAntonioPaolettiBioButton.Size = new System.Drawing.Size(75, 23);
-            this.showAntonioPaolettiBioButton.TabIndex = 1;
-            this.showAntonioPaolettiBioButton.Text = "Antonio";
-            this.showAntonioPaolettiBioButton.UseVisualStyleBackColor = true;
-            this.showAntonioPaolettiBioButton.Click += new System.EventHandler(this.showAntonioPaolettiBioButton_Click);
-            // 
             // showQuinnBioButton
             // 
             this.showQuinnBioButton.Location = new System.Drawing.Point(697, 364);
@@ -96,6 +87,16 @@
             this.showQuinnBioButton.Text = "Quinnilius";
             this.showQuinnBioButton.UseVisualStyleBackColor = true;
             this.showQuinnBioButton.Click += new System.EventHandler(this.showQuinnBioButton_Click);
+            // 
+            // showAaronHoBioButton
+            // 
+            this.showAaronHoBioButton.Location = new System.Drawing.Point(169, 205);
+            this.showAaronHoBioButton.Name = "showAaronHoBioButton";
+            this.showAaronHoBioButton.Size = new System.Drawing.Size(103, 35);
+            this.showAaronHoBioButton.TabIndex = 1;
+            this.showAaronHoBioButton.Text = "Aaron";
+            this.showAaronHoBioButton.UseVisualStyleBackColor = true;
+            this.showAaronHoBioButton.Click += new System.EventHandler(this.showAaronHoBioButton_Click);
             // 
             // RyleeBioButton
             // 
@@ -107,13 +108,23 @@
             this.RyleeBioButton.UseVisualStyleBackColor = true;
             this.RyleeBioButton.Click += new System.EventHandler(this.RyleeBioButton_Click);
             // 
+            // showAndrewStievaterBioButton
+            // 
+            this.showAndrewStievaterBioButton.Location = new System.Drawing.Point(50, 243);
+            this.showAndrewStievaterBioButton.Name = "showAndrewStievaterBioButton";
+            this.showAndrewStievaterBioButton.Size = new System.Drawing.Size(92, 30);
+            this.showAndrewStievaterBioButton.TabIndex = 2;
+            this.showAndrewStievaterBioButton.Text = "Andrew S.";
+            this.showAndrewStievaterBioButton.UseVisualStyleBackColor = true;
+            this.showAndrewStievaterBioButton.Click += new System.EventHandler(this.showAndrewStievaterBioButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(1130, 663);
+            this.Controls.Add(this.showAndrewStievaterBioButton);
             this.Controls.Add(this.showAaronHoBioButton);
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.showKaiLiangBioButton);
             this.Controls.Add(this.showBoBioButton);
             this.Controls.Add(this.showAntonioPaolettiBioButton);
@@ -136,6 +147,7 @@
         private System.Windows.Forms.Button showAntonioPaolettiBioButton;
         private System.Windows.Forms.Button showQuinnBioButton;
         private System.Windows.Forms.Button RyleeBioButton;
+        private System.Windows.Forms.Button showAndrewStievaterBioButton;
     }
 }
 
