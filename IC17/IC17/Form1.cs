@@ -1,4 +1,5 @@
-﻿using System;
+﻿// RASTKO STOJSIN IC17
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -76,6 +77,12 @@ namespace IC17
         {
             AlexaMeyerBioForm alexaMeyerBioForm = new AlexaMeyerBioForm();
             alexaMeyerBioForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RastkoStojsinBioForm rastkoStojsinBioForm = new RastkoStojsinBioForm();
+            rastkoStojsinBioForm.Show();
         }
     }
 }

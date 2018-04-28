@@ -116,6 +116,12 @@
     <Compile Include="QuinnMcElroyBioForm.Designer.cs">
       <DependentUpon>QuinnMcElroyBioForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="RastkoStojsinBioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RastkoStojsinBioForm.Designer.cs">
+      <DependentUpon>RastkoStojsinBioForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="RyleeBioForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +146,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RastkoStojsinBioForm.resx">
+      <DependentUpon>RastkoStojsinBioForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RyleeBioForm.resx">
       <DependentUpon>RyleeBioForm.cs</DependentUpon>
     </EmbeddedResource>
